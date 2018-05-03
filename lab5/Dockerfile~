@@ -10,7 +10,9 @@ RUN mkdir -p /home/lab5/bin
 WORKDIR /home/work
 
 #копируем все файлы из текущего пути к файлу Docker на вашей системе в нашу новую папку образа
-COPY ./src /home/work
+COPY ./lab5.c /home/work
+
+COPY ./Makefile /home/work
 
 COPY ./init /home/work
 
