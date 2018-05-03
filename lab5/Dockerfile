@@ -1,7 +1,9 @@
 #имя базового образа
-FROM debian
+FROM ubuntu
 
-RUN apt update && apt install -y make gcc
+RUN apt update 
+RUN apt install -y make 
+RUN apt install -y gcc
 
 #создаем папку, где будет наша программа
 RUN mkdir -p /home/lab5/bin
