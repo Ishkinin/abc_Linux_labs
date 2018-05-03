@@ -33,7 +33,7 @@ int main(int argc, char *argv[], char *envp[])
 
     close(fd);
 
-    sprintf(str, "Поехалии!!!!\n"); write(1, str, strlen(str));
+    sprintf(str, "Hello, World!\n"); write(1, str, strlen(str));
 
     return 0;
 }
