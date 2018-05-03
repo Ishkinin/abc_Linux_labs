@@ -1,0 +1,7 @@
+#!/bin/bash
+#Вывод отчета на экран при запуске
+cd /home/work
+make
+./lab5 $@
+cat /home/work/out.txt
+/bin/bash
